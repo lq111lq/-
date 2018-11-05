@@ -1,0 +1,254 @@
+html{
+	font-size:13.33333333vw;
+}
+.header{
+	height: 1rem;
+	font:.5rem/1rem '微软雅黑';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+.vux-swiper{
+	height: 152px !important;
+}
+body{
+	margin:0;
+}
+.content{
+	padding-top: 1.8rem;
+}
+.fixed-bottom{
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	background: rgba(0,0,0,.8);
+	height: 1.5rem;
+	color: #fff;
+	font:.4rem/.4rem "微软雅黑";
+}
+.fixed-bottom img{
+	width: 1.2rem;
+  height: 1.2rem;
+}
+.fixed-bottom .songname{
+	width: 3.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.fixed-bottom .name{
+	color: #BBB7B7;
+	margin-top: .2rem;
+	width: 3.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.fixed-bottom .vux-label{
+	margin-left: .4rem;
+}
+.icon-red {
+  width: .8rem;
+  height: .8rem;
+  display: inline-block;
+}
+.rang .left{
+	float: left
+}
+.rang .right{
+	float: right
+}
+.krc{
+	text-align: center;
+	color: #CF4B4B;
+}
+.cover{
+	font:.4rem/.4rem "微软雅黑";
+	text-align: center;
+}
+.cover .current{
+	color:#F0598A;
+}
+.cover .range-handle{
+	width: .3rem;
+	height: .3rem;
+	margin-top:.13rem;
+}
+.cover .range-max{
+	display: none;
+}
+.cover .range-min{
+	display: none;
+}
+.cover .vux-range-input-box{
+	margin-left: .1rem !important;
+	margin-right:0 !important;
+}
+.cover .right{
+	color:#2F2E2E;
+}
+.cover .icon-red{
+	margin:0 .3rem;
+}
+.cover .bottom{
+	margin-top:.5rem;
+}
+.newsong .vux-swiper-item > img{
+	width: 7.5rem;
+}
+.plist .weui-cell__hd img{
+	height: 2rem;
+	width: 2rem
+}
+.plist .vux-label{
+	padding-left: .3rem
+}
+.plist .listen{
+	padding-top:.2rem;
+	font:.3rem/.3rem "微软雅黑";
+	color: #CCC8C8;
+}
+.plist .vux-x-icon {
+  fill: #CCC8C8;
+  vertical-align: middle;	
+}
+.plist .listen span{
+	padding-left: .2rem;
+	vertical-align: middle;
+}
+.plistinfo .picture img{
+	width: 7.5rem;
+}
+.rank .weui-cell__hd img{
+	height: 2rem;
+	width: 2rem;
+}
+.rank .vux-label{
+	padding-left: .3rem;
+}
+.rankinfo .picture img{
+	width: 7.5rem;
+}
+.singer .weui-cells p{
+	margin:0;
+}
+.singer .weui-cells {
+	background: #F4F1F1;
+	border-radius: .2rem;
+	margin:.4rem .2rem;
+}
+.singerList img{
+	width:1.5rem;
+	height: 1.5rem;
+}
+.singerList .vux-cell-primary{
+	margin-left: .3rem;
+}
+.singerinfo .picture img{
+	width: 7.5rem;
+}
+.search-panel{
+	padding: 10px;
+	background-color: #fbfbfb;
+	height: 55px;
+}
+.search-input{
+	width: 80%;
+	height: 100%;
+	display: block;
+	border: 1px solid #e5e5e5;
+	border-radius: 7px;
+	float: left;
+	background-color: #fff
+}
+.search-icon{
+	display: block;
+	float:left;
+	width: 10%;
+	height: 100%;
+	background: url("http://m.kugou.com/v3/static/images/index/search_icon.png") no-repeat center;
+	background-size: auto 100%
+}
+.search-input input{
+	height: 100%;
+	display: inline-block;
+	padding: 0 10px 0 0;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	vertical-align: top;
+	font-size:.4rem;
+}
+.search-btn{
+	display: block;
+	height: 100%;
+	width: 18%;
+	background-color: #2ba2fa;
+	float: right;
+	border-radius: 7px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 35px;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	font-size:.4rem;
+	line-height: 55px;
+}
+.search-list-title{
+	padding: 10px;
+	font-size:.4rem;
+	color: deepskyblue
+}
+.search-total{
+	padding: 5px 10px;
+	background-color: #e1e1e1;
+	color: #484848;
+	font-size:.4rem;
+}
+.search-hot p{
+	margin:.3rem 0;
+	font-size:.4rem;
+	color:#767272;
+}
+.player-Play{
+	background: url("./play_icon.png") no-repeat center;
+	background-size:auto 100%;
+}
+.player-Pause{
+	background: url("./pause_icon.png") no-repeat center;
+	background-size:auto 100%;
+}
+.player-nextSong{
+	background: url("./next_icon.png") no-repeat center;
+	background-size:auto 100%;
+}
+.cover-PlayPrev{
+	background:rgba(0,0,0,.8) url("./play_prev.png") no-repeat center;
+	background-size:auto 100%;
+}
+.cover-PlayNext{
+	background:rgba(0,0,0,.8) url("./play_next.png") no-repeat center;
+	background-size:auto 100%;
+}
+.cover-Play{
+	background:rgba(0,0,0,.8) url("./play_play.png") no-repeat center;
+	background-size:auto 100%;
+}
+.cover-Pause{
+	background:rgba(0,0,0,.8) url("./play_pause.png") no-repeat center;
+	background-size:auto 100%;
+}
+.control{
+	margin-top: .5rem;
+}
+.cover span{
+	border-radius: 50%;
+}
+.cover .range-handle{
+	background: #3809DC;
+}
+
