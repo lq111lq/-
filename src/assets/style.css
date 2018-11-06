@@ -163,6 +163,9 @@ body{
 	float: left;
 	background-color: #fff
 }
+.search-input input{
+	width: 80%;
+}
 .search-icon{
 	display: block;
 	float:left;
