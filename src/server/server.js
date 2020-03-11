@@ -1,5 +1,4 @@
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:8080/abc';
 axios.interceptors.response.use(function ({data}) {
   let o = {};
   if (data.banner){ 
