@@ -9,7 +9,7 @@ module.exports = {
     env:require('./dev.env'),
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '/',
     proxyTable: {
             "/": {
               "target": "http://m.kugou.com/",
